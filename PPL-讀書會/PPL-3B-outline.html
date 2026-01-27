@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"","children":[{"content":"Aircraft design characteristics","children":[{"content":"Stability","children":[],"payload":{"tag":"li","lines":"7,8"}},{"content":"Maneuverability","children":[],"payload":{"tag":"li","lines":"8,9"}},{"content":"Controllability","children":[],"payload":{"tag":"li","lines":"9,10"}}],"payload":{"tag":"li","lines":"6,10"}},{"content":"Three axes of flight","children":[{"content":"Longitudinal axis","children":[],"payload":{"tag":"li","lines":"11,12"}},{"content":"Lateral axis","children":[],"payload":{"tag":"li","lines":"12,13"}},{"content":"Vertical axis","children":[],"payload":{"tag":"li","lines":"13,14"}}],"payload":{"tag":"li","lines":"10,14"}},{"content":"Longitudial stability","children":[{"content":"CG position","children":[],"payload":{"tag":"li","lines":"15,16"}},{"content":"Horizontal stabilizer","children":[],"payload":{"tag":"li","lines":"16,17"}},{"content":"Power effect","children":[{"content":"Slipstream","children":[],"payload":{"tag":"li","lines":"18,19"}},{"content":"Thrust line","children":[],"payload":{"tag":"li","lines":"19,20"}}],"payload":{"tag":"li","lines":"17,20"}}],"payload":{"tag":"li","lines":"14,20"}},{"content":"Lateral stability","children":[{"content":"Dihedral","children":[],"payload":{"tag":"li","lines":"21,22"}},{"content":"Sweepback","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"Wing location","children":[],"payload":{"tag":"li","lines":"23,24"}},{"content":"Keel effect","children":[],"payload":{"tag":"li","lines":"24,25"}},{"content":"Weight distribution","children":[],"payload":{"tag":"li","lines":"25,26"}}],"payload":{"tag":"li","lines":"20,26"}},{"content":"Directional stability","children":[],"payload":{"tag":"li","lines":"26,27"}},{"content":"Dutch roll &amp; sprial instability","children":[],"payload":{"tag":"li","lines":"27,28"}},{"content":"Stalls","children":[],"payload":{"tag":"li","lines":"28,29"}},{"content":"Spins","children":[],"payload":{"tag":"li","lines":"29,30"}}],"payload":{"tag":"ul","lines":"6,30"}},{"colorFreezeLevel":2})</script>
+</body>
+</html>
